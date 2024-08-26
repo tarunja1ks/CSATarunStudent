@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 Passed_Checks=false
 
 brew --version
@@ -94,7 +93,6 @@ echo ""
 echo "show the secrets of .git config file"
 cd .git
 ls -l config
-ierwhlfiwelfj
 echo ""
 echo "look at config file"
 cat config
