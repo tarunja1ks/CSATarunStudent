@@ -1,9 +1,6 @@
 #!/bin/bash
-
 set -e  # Exit immediately if a command exits with a non-zero status
-# trap 'catch' ERR
-export AnException=100
-export AnotherException=101
+trap 'catch' ERR
 
 try() {
 
@@ -105,6 +102,7 @@ try() {
 }
 
 
-catch || {
+catch() {
     echo "verifications not passed"
 }
+try
