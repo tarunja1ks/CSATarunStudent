@@ -27,7 +27,7 @@ hide: true
 <div class="hobby-container">
     <img src="images/notebooks/foundation/Basketball.jpeg" alt="Basketball Giannis" class="main-image2">
     <p class="basketball-text">
-            My favorite sport to play is basketball, and I enjoy to play often times at my neighbhorhood park. Apart from playing basketball for fun, I love to watch nba games and see all of the cool basketball. My favorite team in the NBA is the Bucks, since they have my goat Giannis.
+            Learn more about Giannis the goat with this API. My favorite sport to play is basketball, and I enjoy to play often times at my neighbhorhood park. Apart from playing basketball for fun, I love to watch nba games and see all of the cool basketball. My favorite team in the NBA is the Bucks, since they have my goat Giannis.
     </p>
     <div class="nbastats">
         <label for="playerName">Player Name</label>
@@ -53,9 +53,15 @@ hide: true
 
 
 
+<div class="hobby-container">
+    <video src="Videos/Robotics.mp4" width="280" height="240" controls></video>
+   <p class="RTT-text">
+            Check out my FTC team's off season Swerve Drive Robot. I am co-captain and programmer on the team, and so far we have made some pretty amazing stuff. For example, we made an auto simulation tool, to help visualize our autnomous driving. Apart from this, we have done numerous kinematics and math research for our autonomous driving to calculate deceleration, and do much more to greatly improve the speed of our autonomus driving. 
+    </p>
+    <img src="images/notebooks/foundation/Ftcsimexample.png" alt="Side Image" class="Side-image">
+</div>
 
 
-<video src="Videos/Robotics.mp4" width="320" height="240" controls></video>
 
 
 
