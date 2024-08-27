@@ -33,6 +33,16 @@ hide: true
         <label for="playerName">Player Name</label>
         <input type="text" id="playerName" placeholder="Enter player name">
         <button id="fetchPlayerStats">Fetch Player Stats</button>
+        <table id="playerStatsTable">
+        <thead>
+                <tr>
+                    <th>Stat Name</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
     </div>
 </div>
 
@@ -161,8 +171,26 @@ hide: true
                         }
                     }
                     console.log(maxAge);
-                    // Process and display the data as needed
-                })
+                    console.log(cur_stats);
+                    const tableBody = document.getElementById('playerStatsTable').getElementsByTagName('tbody')[0];
+                    tableBody.innerHTML = '';
+                    Object.entries(cur_stats).forEach(([key, value]) => {
+                                const excludedStats = [
+                                    'ftr', 'offensiveRBPercent', 'defensiveRBPercent', 'totalRBPercent', 
+                                    'assistPercent', 'stealPercent', 'blockPercent', 'turnoverPercent', 
+                                    'usagePercent', 'offensiveWS', 'defensiveWS', 'winShares', 
+                                    'winSharesPer', 'offensiveBox', 'defensiveBox', 'box', 'vorp','games','minutesPlayed','per','tsPercent',
+                                ];
+                                if (excludedStats.includes(key)) return;
+
+                                const row = tableBody.insertRow();
+                                const cell1 = row.insertCell(0);
+                                const cell2 = row.insertCell(1);
+                                cell1.textContent = key; 
+                                cell2.textContent = value;
+                            });
+
+                    })
                 .catch(error => {
                     console.error('Error:', error);
                 });
