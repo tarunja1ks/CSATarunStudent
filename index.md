@@ -83,6 +83,12 @@ hide: true
         
     }
 
+    .main-image2{
+        max-width: 500px;
+        margin-bottom:70px;
+         animation: moving-glow2 2s infinite;
+    }
+
     .daves-text {
         position: relative;
         display: inline-block;
@@ -103,8 +109,20 @@ hide: true
 
     .nbastats{
          margin-left: 40px;
+         animation: moving-glow2 2s infinite;
     }
 
+    @keyframes moving-glow2 {
+        0% {
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.8)
+        }
+        50% {
+             box-shadow: 0 0 30px rgba(0, 255, 0, 0.8)
+        }
+        100% {
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.8)
+        }
+    }
 
     @keyframes moving-glow {
         0% {
