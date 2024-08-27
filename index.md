@@ -13,7 +13,7 @@ hide: true
 <div class="hobby-container">
     <img src="images/notebooks/foundation/DavesHotChicken.jpeg" alt="Daves Hot Chicken" class="main-image">
    <p class="daves-text">
-            One of my favorite restaurants is Daves Hot Chicken. I enjoy many of their menu options, including their juicy and crispy tenders, and their mouth-watering sliders. The spice level I usually get is Hot, but I can handle it with lots of Daves sauce and honey on my meal.
+            TRY OUT DAVES HOT CHICKEN IN MIRA MESA.One of my favorite restaurants is Daves Hot Chicken. I enjoy many of their menu options, including their juicy and crispy tenders, and their mouth-watering sliders. The spice level I usually get is Hot, but I can handle it with lots of Daves sauce and honey on my meal.
     </p>
     <img src="images/notebooks/foundation/davesfood.jpeg" alt="Side Image" class="Side-image">
 </div>
