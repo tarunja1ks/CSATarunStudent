@@ -6,6 +6,7 @@ permalink: /about/
 
 <h3>About Me.</h3>
 
+<div class="About-me">
 <p>Hi! My name is Tarun Jaikumar and Im a Junior at DNHS. I am an individual very focused into STEM doing many hobbies/extra ciriculars such as competitive programming, and also Robotics. I love technology, because of all the amazing things you can do and create with it, and how you have limitless possibilities and thoughts that you can bring to life. Last year, I had taken CSP to get more familiar with coding, and working in groups. I was also completely inexperienced in frontend work, which I have completed improved on from then onwards working on numerous projects. In CSP, I was able to make a cool frontend and use JS for my CPT, and I also used AI for the backend to make an encryption algorithim and decryption algorithim. This year in CSA, I hope to make much more cool projects and hopefully use some of them for any internships I might want in the future. </p>
 
 
@@ -16,7 +17,19 @@ permalink: /about/
 
 <p>For more on my personal fun life, I love to do many things such as playing fortnite and basketball with my friends. During the summer, my Friends and I had a blast playing numeours gamed with each other, and we have really bonded there. Some fun things, I have done over the summer include watching the new Deadpool movie with my robotics team, and HOSTING a STEM FAIR, with around 100 audience attendees. </p>
 
+</div>
+
+
+
+<div class="Images">
+
+</div>
+
+
+
 <h3>Basic Info</h3>
+
+
 
 - Name: Tarun Jaikumar
 - Email: tarunjaiks@gmail.com
@@ -53,7 +66,13 @@ permalink: /about/
     }
 
     p{
+        font-size:20px;
+    }
 
+    .About-me{
+        border:5px;
+        width:1000px;
+         box-shadow: 0 0 30px rgba(0, 255, 0, 0.8);
     }
 
 </style>
