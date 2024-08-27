@@ -63,8 +63,10 @@ hide: true
 
 
 
+<h3>Checkout my Media Links.</h3>
+Subscribe to my [Youtube Chanel](https://www.youtube.com/@tarunjaikumar9058/featured) !!
 
-
+Go to my [Github account](https://github.com/tarunja1ks) !!
 
 
 
