@@ -6,24 +6,17 @@ hide: true
 ---
 
 
+<h3>Welcome to Tarun Jaikumar's Page.</h3>
 
-
-
-### Favorite Things to Do
 
 
 <div class="hobby-container">
     <img src="images/notebooks/foundation/DavesHotChicken.jpeg" alt="Daves Hot Chicken" class="main-image">
-    <div class="hobby-description">
-        One of my favorite restaurants is Daves Hot Chicken. I enjoy many of their menu options, including their juicy and crispy tenders, and their mouth-watering sliders. The spice level I usually get is Hot, but I can handle it with lots of Daves sauce and honey on my meal.
-        <img src="images/notebooks/foundation/davesfood.jpeg" alt="Hover Image" class="hover-image"> 
-    </div>
+   <p class="daves-text">
+            One of my favorite restaurants is Daves Hot Chicken. I enjoy many of their menu options, including their juicy and crispy tenders, and their mouth-watering sliders. The spice level I usually get is Hot, but I can handle it with lots of Daves sauce and honey on my meal.
+    </p>
+    <img src="images/notebooks/foundation/davesfood.jpeg" alt="Side Image" class="Side-image">
 </div>
-
-
-
-
-
 
 
 
@@ -33,27 +26,90 @@ hide: true
 
 ![](images/notebooks/foundation/Basketball.jpeg)
 
+
+
+
+
+
+
+
+
 <video src="Videos/Robotics.mp4" width="320" height="240" controls></video>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <style>
     .hobby-container {
-        position: relative;
-        display: inline-block;
-    }
-    
-  .hover-image {
-        display: none;
-        position: absolute;
-        top: 0;
-        right: -220px; /* Adjust this to control the distance between the images */
-        max-width: 200px;
-        border: 1px solid #ccc;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-        z-index: 10;
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
     }
 
-    .hobby-container:hover .hover-image {
-        display: block;
+    .main-image {
+        max-width: 500px;
+        margin-bottom:50px;
+        
     }
+
+    .daves-text {
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        max-width: 320px; 
+    }
+
+    .hobby-description {
+        margin-bottom: 10px; 
+    }
+
+    .Side-image {
+        display: block;
+        border: 1px solid #ccc; 
+        margin-left: 40px;
+        animation: moving-glow 2s infinite;
+    }
+
+
+    @keyframes moving-glow {
+        0% {
+            box-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
+        }
+        50% {
+            box-shadow: 0 0 30px rgba(255, 0, 0, 0.8);
+        }
+        100% {
+            box-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
+        }
+    }
+
+    @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+    h3 {
+        text-align: center;
+        margin: 20px 0; 
+        margin-bottom:30px;
+        color: #ff4500; 
+        animation: bounce 2s infinite;
+    }
+
 </style>
