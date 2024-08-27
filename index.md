@@ -152,6 +152,7 @@ hide: true
                 .then(response => response.json())
                 .then(data => {
                     console.log(data);
+                    
                     // Process and display the data as needed
                 })
                 .catch(error => {
