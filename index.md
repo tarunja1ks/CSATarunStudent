@@ -24,7 +24,16 @@ hide: true
 
 
 
-![](images/notebooks/foundation/Basketball.jpeg)
+<div class="hobby-container">
+    <img src="images/notebooks/foundation/Basketball.jpeg" alt="Basketball Giannis" class="main-image2">
+    <p class="basketball-text">
+            My favorite sport to play is basketball, and I enjoy to play often times at my neighbhorhood park. Apart from playing basketball for fun, I love to watch nba games and see all of the cool basketball. My favorite team in the NBA is the Bucks, since they have my goat Giannis.
+    </p>
+    <div class="nbastats">
+        thing
+    </div>
+</div>
+
 
 
 
@@ -58,6 +67,7 @@ hide: true
     .main-image {
         max-width: 500px;
         margin-bottom:50px;
+         animation: moving-glow 2s infinite;
         
     }
 
@@ -92,18 +102,20 @@ hide: true
         }
     }
 
-    @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-        transform: translateY(0);
+   @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+                color: #0D98BA; 
+            }
+            40% {
+                transform: translateY(-5px); 
+                color: #32cd32; 
+            }
+            60% {
+                transform: translateY(-5px); /
+                color: #32cd32; 
+            }
     }
-    40% {
-        transform: translateY(-10px);
-    }
-    60% {
-        transform: translateY(-5px);
-    }
-}
-
     h3 {
         text-align: center;
         margin: 20px 0; 
