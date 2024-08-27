@@ -13,7 +13,7 @@ python --version
 
 # Show Jupyter packages, nbconvert needs to be in the list of installed
 jupyter --version
- mdless --version
+mdless --version
 jupyter kernelspec list  
 
 git config --global --list
