@@ -54,11 +54,11 @@ hide: true
 
 
 <div class="hobby-container">
-    <video src="Videos/Robotics.mp4" width="280" height="240" controls></video>
+    <video src="Videos/Robotics.mp4" width="280" height="240" controls class="video-class"></video>
    <p class="RTT-text">
             Check out my FTC team's off season Swerve Drive Robot. I am co-captain and programmer on the team, and so far we have made some pretty amazing stuff. For example, we made an auto simulation tool, to help visualize our autnomous driving. Apart from this, we have done numerous kinematics and math research for our autonomous driving to calculate deceleration, and do much more to greatly improve the speed of our autonomus driving. 
     </p>
-    <img src="images/notebooks/foundation/Ftcsimexample.png" alt="Side Image" class="Side-image">
+    <img src="images/notebooks/foundation/Ftcsimexample.png" alt="Side Image" class="Side-image3">
 </div>
 
 
@@ -80,6 +80,7 @@ hide: true
     .hobby-container {
         display:grid;
         grid-template-columns: repeat(3,1fr);
+        margin-bottom:50px;
     }
 
     .main-image {
@@ -113,9 +114,33 @@ hide: true
         animation: moving-glow 2s infinite;
     }
 
+    .Side-image3 {
+        display: block;
+        border: 1px solid #ccc; 
+        margin-left: 40px;
+        animation: moving-glow3 2s infinite;
+    }
+
+    .video-class {
+        animation: moving-glow3 2s infinite;
+    }
+
     .nbastats{
          margin-left: 40px;
          animation: moving-glow2 2s infinite;
+    }
+
+
+    @keyframes moving-glow3 {
+        0% {
+            box-shadow: 0 0 10px rgba(0, 0, 255, 0.8);
+        }
+        50% {
+            box-shadow: 0 0 30px rgba(0, 0, 255, 0.8);
+        }
+        100% {
+            box-shadow: 0 0 10px rgba(0, 0, 255, 0.8);
+        }
     }
 
     @keyframes moving-glow2 {
