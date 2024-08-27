@@ -30,7 +30,9 @@ hide: true
             My favorite sport to play is basketball, and I enjoy to play often times at my neighbhorhood park. Apart from playing basketball for fun, I love to watch nba games and see all of the cool basketball. My favorite team in the NBA is the Bucks, since they have my goat Giannis.
     </p>
     <div class="nbastats">
-        thing
+        <label for="playerName">Player Name</label>
+        <input type="text" id="playerName" placeholder="Enter player name">
+        <button id="fetchPlayerStats">Fetch Player Stats</button>
     </div>
 </div>
 
@@ -89,6 +91,10 @@ hide: true
         animation: moving-glow 2s infinite;
     }
 
+    .nbastats{
+         margin-left: 40px;
+    }
+
 
     @keyframes moving-glow {
         0% {
@@ -125,3 +131,34 @@ hide: true
     }
 
 </style>
+
+
+
+
+<script>
+        document.getElementById('fetchPlayerStats').addEventListener('click', () => {
+            var playerName = document.getElementById('playerName').value;
+            // var endpoint='https://api-nba-v1.p.rapidapi.com/players?name='+playerName;
+            // endpoint="https://api-nba-v1.p.rapidapi.com/players/firstName/Alex";
+            const endpoint = `http://b8c40s8.143.198.70.30.sslip.io/api/PlayerDataAdvancedPlayoffs/name/`+playerName;
+            if (playerName) {
+               fetch(endpoint, {
+                    method: 'GET',
+                    headers: {
+                        // 'x-rapidapi-host': 'api-nba-v1.p.rapidapi.com',
+                        // 'x-rapidapi-key': 'dbbcecd80emsh3f4c3a22ac2989ep17e836jsn8ae47631551a'
+                    }
+                })
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data);
+                    // Process and display the data as needed
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+            } else {
+                console.error('Please enter a player name.');
+            }
+        });
+</script>
