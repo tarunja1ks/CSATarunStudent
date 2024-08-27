@@ -4,7 +4,35 @@ title: About
 permalink: /about/
 ---
 
+<div id="typewriter"></div>
+
+<script>
+  const text = "Learn a little about me :)";
+  let index = 0;
+
+  function type() {
+    if (index < text.length) {
+      document.getElementById('typewriter').innerHTML += text.charAt(index);
+      index++;
+      setTimeout(type, 100);
+    }
+  }
+
+  type();
+</script>
+
+
+
+
+
+
+
 <h3>About Me.</h3>
+
+
+
+
+
 
 <div class="About-me">
 <p>Hi! My name is Tarun Jaikumar and Im a Junior at DNHS. I am an individual very focused into STEM doing many hobbies/extra ciriculars such as competitive programming, and also Robotics. I love technology, because of all the amazing things you can do and create with it, and how you have limitless possibilities and thoughts that you can bring to life. Last year, I had taken CSP to get more familiar with coding, and working in groups. I was also completely inexperienced in frontend work, which I have completed improved on from then onwards working on numerous projects. In CSP, I was able to make a cool frontend and use JS for my CPT, and I also used AI for the backend to make an encryption algorithim and decryption algorithim. This year in CSA, I hope to make much more cool projects and hopefully use some of them for any internships I might want in the future. </p>
