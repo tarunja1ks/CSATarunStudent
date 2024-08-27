@@ -13,6 +13,7 @@ python --version
 
 # Show Jupyter packages, nbconvert needs to be in the list of installed
 jupyter --version
+ mdless --version
 jupyter kernelspec list  
 
 git config --global --list
@@ -53,47 +54,48 @@ echo "Directory $project exists."
 
 
 
-# Listing out the files in the repo
 
-echo "Navigate to project, then navigate to area wwhere files were cloned"
-cd $project
-pwd
+# # Listing out the files in the repo
 
-echo ""
-echo "list top level or root of files with project pulled from github"
-ls
+# echo "Navigate to project, then navigate to area wwhere files were cloned"
+# cd $project
+# pwd
 
-
-
-#Showing read.md stuff
-echo "Navigate to project, then navigate to area wwhere files were cloned"
-
-cd $project
-echo "show the contents of README.md"
-echo ""
-
-cat README.md  # show contents of file, in this case markdown
-echo ""
-echo "end of README.md"
-
-
-#Show env variables
-echo "Show the shell environment variables, key on left of equal value on right"
-echo ""
-
-env
+# echo ""
+# echo "list top level or root of files with project pulled from github"
+# ls
 
 
 
+# #Showing read.md stuff
+# echo "Navigate to project, then navigate to area wwhere files were cloned"
+
+# cd $project
+# echo "show the contents of README.md"
+# echo ""
+
+# cat README.md  # show contents of file, in this case markdown
+# echo ""
+# echo "end of README.md"
 
 
-cd $project
+# #Show env variables
+# echo "Show the shell environment variables, key on left of equal value on right"
+# echo ""
 
-echo ""
-echo "show the secrets of .git config file"
-cd .git
-ls -l config
-echo ""
-echo "look at config file"
-cat config
+# env
+
+
+
+
+
+# cd $project
+
+# echo ""
+# echo "show the secrets of .git config file"
+# cd .git
+# ls -l config
+# echo ""
+# echo "look at config file"
+# cat config
 
