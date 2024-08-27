@@ -111,14 +111,12 @@ Go to my [Github account](https://github.com/tarunja1ks) !!
 
     .Side-image {
         display: block;
-        border: 1px solid #ccc; 
         margin-left: 40px;
         animation: moving-glow 2s infinite;
     }
 
     .Side-image3 {
         display: block;
-        border: 1px solid #ccc; 
         margin-left: 40px;
         animation: moving-glow3 2s infinite;
     }
