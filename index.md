@@ -168,7 +168,7 @@ hide: true
             var playerName = document.getElementById('playerName').value;
             // var endpoint='https://api-nba-v1.p.rapidapi.com/players?name='+playerName;
             // endpoint="https://api-nba-v1.p.rapidapi.com/players/firstName/Alex";
-            const endpoint = `http://b8c40s8.143.198.70.30.sslip.io/api/PlayerDataAdvancedPlayoffs/name/`+playerName;
+            const endpoint = `https://b8c40s8.143.198.70.30.sslip.io/api/PlayerDataAdvancedPlayoffs/name/`+playerName;
             if (playerName) {
                fetch(endpoint, {
                     method: 'GET',
