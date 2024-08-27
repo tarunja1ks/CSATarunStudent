@@ -151,8 +151,16 @@ hide: true
                 })
                 .then(response => response.json())
                 .then(data => {
-                    console.log(data);
-                    
+                    // console.log(data);
+                    var maxAge=Number(data[0]['age']); // i iterate to get the maximum age to get the latest stats
+                    var cur_stats=data[0];
+                    for(let i=0;i<data.length;i++){
+                        if(Number(data[i]['age'])>maxAge){
+                            maxAge=data[i]['age'];
+                            cur_stats=data[i];
+                        }
+                    }
+                    console.log(maxAge);
                     // Process and display the data as needed
                 })
                 .catch(error => {
