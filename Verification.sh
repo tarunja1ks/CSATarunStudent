@@ -2,22 +2,26 @@
 
 Passed_Checks=false
 
+echo "-----------------------"
 brew --version
-
+echo "-----------------------"
 ruby -v
 # Bundler version, it is part of Ruby install
+echo "-----------------------"
 bundle -v
-
+echo "-----------------------"
 # Show active Python version, it needs to be 3.10 or better
 python --version
-
+echo "-----------------------"
+mdless --version
+echo "-----------------------"
 # Show Jupyter packages, nbconvert needs to be in the list of installed
 jupyter --version
-mdless --version
+echo "-----------------------"
 jupyter kernelspec list  
-
+echo "-----------------------"
 git config --global --list
-
+echo "-----------------------"
 
 source /tmp/variables.sh
 
@@ -25,7 +29,7 @@ echo "Project dir: $project_dir"
 echo "Project: $project"
 echo "Repo: $project_repo"
 
-
+echo "-----------------------"
 
 source /tmp/variables.sh
 
