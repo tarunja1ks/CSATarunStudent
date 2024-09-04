@@ -88,7 +88,8 @@ Go to my [Github account](https://github.com/tarunja1ks) !!
     .main-image {
         max-width: 500px;
         margin-bottom:50px;
-         animation: moving-glow 2s infinite;
+        animation: moving-glow 2s infinite;
+        margin-right:50px;
         
     }
 
@@ -96,6 +97,7 @@ Go to my [Github account](https://github.com/tarunja1ks) !!
         max-width: 500px;
         margin-bottom:70px;
          animation: moving-glow2 2s infinite;
+        margin-right:50px;
     }
 
     .daves-text {
@@ -123,6 +125,7 @@ Go to my [Github account](https://github.com/tarunja1ks) !!
 
     .video-class {
         animation: moving-glow3 2s infinite;
+        margin-right:50px;
     }
 
     .nbastats{
