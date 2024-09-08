@@ -30,10 +30,33 @@ hide: true
     <img src="images/notebooks/foundation/Ftcsimexample.png" alt="Side Image" class="Side-image3">
 </div>
 
+<h3>Checkout my Repos</h3>
+
+
+
+<div class="text-container">
+    <p class="RTT-text">
+        <a href="https://github.com/tarunja1ks/TrashDetector">Trash Detector</a>
+        <br><br>
+        - I worked on a hackathon creating an automatic detector for diffrentiating Trash/Recycling
+        <br><br>
+        - Can be used within recycling facilities to help sort out trash thrown out that can jam the machines
+        <br><br>
+        - Won First in Bay Area Hacks(500+ppl)
+        <br><br>
+        <a href="https://github.com/tarunja1ks/CptbackendSecretEncrypter"> Backend of my Encryptor Project</a>
+        <br><br>
+            - I worked on a Encryptor Project where I used AI to decrypt text
+            <br><br>
+            - Also includes/features encryption algorithims such as Ceaser Cipher and Binary Encryption
+            <br><br>
+    </p>
+</div>
 
 
 
 <h3>Checkout my Media Links.</h3>
+
 Subscribe to my [Youtube Chanel](https://www.youtube.com/@tarunjaikumar9058/featured) !!
 
 Go to my [Github account](https://github.com/tarunja1ks) !!
