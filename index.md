@@ -34,21 +34,21 @@ hide: true
 
 
 
-<div class="text-container">
-    <p class="RTT-text">
+<div class="Repo-container">
+    <p class="Repo-text">
         <a href="https://github.com/tarunja1ks/TrashDetector">Trash Detector</a>
         <br><br>
-        - I worked on a hackathon creating an automatic detector for diffrentiating Trash/Recycling
+            - I worked on a hackathon creating an automatic detector for diffrentiating Trash/Recycling
         <br><br>
-        - Can be used within recycling facilities to help sort out trash thrown out that can jam the machines
+            - Can be used within recycling facilities to help sort out trash thrown out that can jam the machines
         <br><br>
-        - Won First in Bay Area Hacks(500+ppl)
+            - Won First in Bay Area Hacks(500+ppl)
         <br><br>
         <a href="https://github.com/tarunja1ks/CptbackendSecretEncrypter"> Backend of my Encryptor Project</a>
         <br><br>
-            - I worked on a Encryptor Project where I used AI to decrypt text
+                - I worked on a Encryptor Project where I used AI to decrypt text
             <br><br>
-            - Also includes/features encryption algorithims such as Ceaser Cipher and Binary Encryption
+                - Also includes/features encryption algorithims such as Ceaser Cipher and Binary Encryption
             <br><br>
     </p>
 </div>
@@ -72,42 +72,11 @@ Go to my [Github account](https://github.com/tarunja1ks) !!
 
 
 <style>
+
     .hobby-container {
         display:grid;
         grid-template-columns: repeat(3,1fr);
         margin-bottom:50px;
-    }
-
-    .main-image {
-        max-width: 500px;
-        margin-bottom:50px;
-        animation: moving-glow 2s infinite;
-        margin-right:50px;
-        
-    }
-
-    .main-image2{
-        max-width: 500px;
-        margin-bottom:70px;
-         animation: moving-glow2 2s infinite;
-        margin-right:50px;
-    }
-
-    .daves-text {
-        position: relative;
-        display: inline-block;
-        text-align: center;
-        max-width: 320px; 
-    }
-
-    .hobby-description {
-        margin-bottom: 10px; 
-    }
-
-    .Side-image {
-        display: block;
-        margin-left: 40px;
-        animation: moving-glow 2s infinite;
     }
 
     .Side-image3 {
@@ -121,12 +90,15 @@ Go to my [Github account](https://github.com/tarunja1ks) !!
         margin-right:50px;
     }
 
-    .nbastats{
-         margin-left: 40px;
-         animation: moving-glow2 2s infinite;
+    .Side-image3 {
+        display: block;
+        margin-left: 40px;
+        animation: moving-glow3 2s infinite;
     }
-
-
+    .Repo-container{
+        display: block;
+        animation: moving-glow3 2s infinite;
+    }
     @keyframes moving-glow3 {
         0% {
             box-shadow: 0 0 10px rgba(0, 0, 255, 0.8);
