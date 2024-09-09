@@ -32,7 +32,12 @@ permalink: /about/
 <div class="hobby-container">
     <img src="{{site.baseurl}}/images/notebooks/foundation/DavesHotChicken.jpeg" alt="Daves Hot Chicken" class="main-image">
    <p class="daves-text">
-            TRY OUT DAVES HOT CHICKEN IN MIRA MESA.One of my favorite restaurants is Daves Hot Chicken. I enjoy many of their menu options, including their juicy and crispy tenders, and their mouth-watering sliders. The spice level I usually get is Hot, but I can handle it with lots of Daves sauce and honey on my meal.
+            <br>TRY OUT DAVES HOT CHICKEN:
+              <br>- my favorite resturant
+              <br>- For vegans and Meatlovers
+              <br>- Spice level of hot is what you wanna get for best experience
+              <br>- Can enjoy with honey and daves signature sauce
+              <br>
     </p>
     <img src="{{site.baseurl}}/images/notebooks/foundation/davesfood.jpeg" alt="Side Image" class="Side-image">
 </div>
@@ -46,7 +51,11 @@ permalink: /about/
 <div class="hobby-container">
     <img src="{{site.baseurl}}/images/notebooks/foundation/Basketball.jpeg" alt="Basketball Giannis" class="main-image2">
     <p class="basketball-text">
-            Learn more about Giannis the goat with this API. My favorite sport to play is basketball, and I enjoy to play often times at my neighbhorhood park. Apart from playing basketball for fun, I love to watch nba games and see all of the cool basketball. My favorite team in the NBA is the Bucks, since they have my goat Giannis.
+            - I love to play basketball
+            <br>
+            - My Favorite Player is Giannis Anteketumpo on the Bucks
+            <br>
+            - Checkout the basketball stats program I made -->
     </p>
     <div class="nbastats">
         <label for="playerName">Player Name</label>
@@ -75,7 +84,10 @@ permalink: /about/
 <div class="hobby-container">
     <video src="{{site.baseurl}}/Videos/Robotics.mp4" width="280" height="240" controls class="video-class"></video>
    <p class="RTT-text">
-            Check out my FTC team's off season Swerve Drive Robot. I am co-captain and programmer on the team, and so far we have made some pretty amazing stuff. For example, we made an auto simulation tool, to help visualize our autnomous driving. Apart from this, we have done numerous kinematics and math research for our autonomous driving to calculate deceleration, and do much more to greatly improve the speed of our autonomus driving. 
+          <br>Check out my FTC team's off season Swerve Drive Robot:
+          <br>- I am cocaptain and programmer
+          <br>- Made an autonomous driving simulation tool 
+          <br>- Did lots of physics/maths for autoonomous driving
     </p>
     <img src="{{site.baseurl}}/images/notebooks/foundation/Ftcsimexample.png" alt="Side Image" class="Side-image3">
 </div>
@@ -126,7 +138,7 @@ permalink: /about/
         position: relative;
         display: inline-block;
         text-align: center;
-        max-width: 320px; 
+        max-width: 400px; 
     }
 
     .hobby-description {
