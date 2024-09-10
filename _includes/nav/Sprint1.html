@@ -1,4 +1,5 @@
-<table></table>
+
+<table class="navigation-table">
     <tr>
         <td><a href="{{site.baseurl}}/devops/tools/home">Home</a></td>
         <td><a href="{{site.baseurl}}/devops/tools/accounts">Accounts</a></td>
@@ -8,3 +9,30 @@
         <td><a href="{{site.baseurl}}/devops/hacks">Hacks</a></td>
     </tr>
 </table>
+
+<style>
+.navigation-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+}
+
+.navigation-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.navigation-table a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 8px;
+}
+
+.navigation-table a:hover {
+    background-color: #f2f2f2;
+    color: #000;
+}
+</style>
+
