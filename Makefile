@@ -21,7 +21,7 @@ MARKDOWN_FILES := $(patsubst _notebooks/%.ipynb,$(DESTINATION_DIRECTORY)/%_IPYNB
 
 # Call server, then verify and start logging
 default: server
-	@echo "Terminal logging starting, watching server..."
+	@echo "Terminal logging starting, watching server..."  
 	@# tail and awk work together to extract Jekyll regeneration messages
 	@# When a _notebook is detected in the log, call make convert in the background
 	@# Note: We use the "if ($$0 ~ /_notebooks\/.*\.ipynb/) { system(\"make convert &\") }" to call make convert
