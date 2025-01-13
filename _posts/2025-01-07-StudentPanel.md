@@ -17,4 +17,10 @@ Take notes that apply to yourself!
 - Do NOT do essays the night before 
 -  I should try to Look at colleges based on what you like not based on what is ranked the highest  
 
+Key Takeaways/places i can use this:
+- in my robotics team I am one of the co-captain and compared to last year, i tried to make us much more organized, which has made us significantly better being one of the top teams now, which confirms the statements said about organizing using structure/flowcharts more
+- Reviews are pretty important, since sometimes I could not understand other people's code last year which
+made debugging a lot harer when they presented a entire product with errors to help them fix rather than bits and pieces so I know more about what is going on
+- I should try to follow my pasion and excel in that rather than getting peerpressured into doing somethign I don't like->life is short
+
 <img width="988" alt="Screenshot 2025-01-09 at 11 39 07 AM" src="https://github.com/user-attachments/assets/ac3233ff-4997-44ab-9431-d14040bd51af" />
